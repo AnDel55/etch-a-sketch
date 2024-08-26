@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+
+    <!-- CSS link -->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 class="title">Etch-a-Sketch</h1>
+
+    <div class="container">
+        
+            <div class="sidebar">
+                <input type="color" id="">
+                <button class="rainbow-btn">Rainbow mode</button>
+                <button class="eraser-btn">Eraser</button>
+                <button class="clear-btn">Clear</button>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                <div class="slider-value">50 x 50</div>
+            </div>
+
+            <div class="game-grid"></div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
