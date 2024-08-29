@@ -4,7 +4,7 @@ You can draw on a grid, adjust the grid size, pick colors, use a rainbow mode, e
 ![screenshot](screenshot/screenshot.png)
 
 ## Live Demo
-You can try the live version of the project here: [Etch-a-Sketch](https://AnDel55/.github.io/etch-a-sketch/)
+You can try the live version of the project here: [Etch-a-Sketch](https://andel55.github.io/etch-a-sketch/)
 
 ## Technologies Used
 - HTML5: Structure of the application.
